@@ -3,6 +3,9 @@ import { BiSolidSun, BiPhoneCall, BiSolidMoon } from "react-icons/bi";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import { FaCaretDown } from "react-icons/fa";
 import ResponsiveMenu from "./ResponsiveMenu";
+import Logo from "../../assets/logo.png";
+import Gallery6 from "../../assets/logoStudyPoint.jpg";
+
 const Navbar2 = () => {
   const [theme, setTheme] = useState(
     localStorage.getItem("theme") ? localStorage.getItem("theme") : "light",
@@ -36,9 +39,14 @@ const Navbar2 = () => {
       >
         <nav className="container  flex h-[70px] items-center justify-between py-2 ">
           <div className="text-2xl text-white md:text-3xl ">
-            <a href="/#home" className="">
-              VEDANT STUDY <span></span>
-              <span className="inline-block font-bold text-primary"> POINT</span>
+            <a href="/#home" className="flex items-center gap-2 mt-2">
+            <img
+            src={Logo}
+            alt="Vedant Study Point Logo"
+            className="h-10 w-10 object-contain"
+            />
+              VEDANT STUDY POINT <span></span>
+              {/* <span className="inline-block font-bold text-primary"> POINT</span> */}
             </a>
           </div>
           {/* Desktop Menu */}
@@ -46,7 +54,7 @@ const Navbar2 = () => {
             <ul className="flex items-center gap-10">
               <li className="group relative cursor-pointer">
                 <a
-                  href="/#home"
+                  href="/"
                   className="flex h-[72px] items-center gap-[2px]"
                 >
                   Home{" "}
@@ -76,8 +84,8 @@ const Navbar2 = () => {
                   <div className="grid grid-cols-3 gap-5 ">
                     <div className="d-200 overflow-hidden">
                       <img
-                        className="max-h-[300px] w-full rounded-b-3xl object-fill"
-                        src="https://picsum.photos/200"
+                        className="max-h-[400px] w-full rounded-b-3xl object-fill"
+                        src={Gallery6}
                         alt="pics"
                       />
                     </div>
@@ -108,7 +116,7 @@ const Navbar2 = () => {
                             Free Wi-Fi
                           </h1>
                           <li className="cursor-pointer font-semibold text-black/80 hover:text-primary">
-                            R.O. Water
+                            Drinking Water
                           </li>
                           <li className="cursor-pointer font-semibold text-black/80 hover:text-primary">
                             Parking Facility
@@ -118,7 +126,7 @@ const Navbar2 = () => {
                           </li>
                         </ul>
                         <div>
-                          <img src="https://picsum.photos/180" alt="no image" />
+                          {/* <img src={Gallery8} alt="no image" /> */}
                         </div>
                       </div>
                     </div>
@@ -126,7 +134,10 @@ const Navbar2 = () => {
                 </div>
               </li>
               <li className="cursor pointer">
-                <a href="/#contact">About us</a>
+                <a href="/about">About us</a>
+              </li>
+               <li className="cursor-pointer">
+                <a href="/#gallery">Gallery</a>
               </li>
               {/* Phone number section */}
               <div className="flex items-center gap-4">

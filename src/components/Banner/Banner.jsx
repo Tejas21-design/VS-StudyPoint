@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import BannerImg from "../../assets/marketing-speaker.png";
+import VsPointVideo from "../../assets/vsPoint_test.mp4";
 import ContactForm from "../ContactForm";
 
 const Banner = () => {
@@ -8,7 +9,7 @@ const Banner = () => {
 
   return (
     <main className="bg-primary">
-      <section data-aos="fade-up" className="container py-8 md:py-12">
+      <section data-aos="fade-up" className="container py-8 md:py-12" id="banner">
         <div className="grid grid-cols-1 items-center gap-4 md:grid-cols-3 md:gap-8">
           {/* Text Section */}
           <div className="order-2 flex flex-col items-center gap-4 text-center text-white md:col-span-2 md:items-start md:text-left">
@@ -27,10 +28,13 @@ const Banner = () => {
 
           {/* Image Section */}
           <div className="order-1">
-            <img
-              src={BannerImg}
-              alt="Vedant Study Point Banner"
-              className="w-full rounded-lg shadow-lg"
+            <video
+              src={VsPointVideo}
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="rounded-lg shadow-lg object-cover max-h-[350px] max-w-[450px]"
             />
           </div>
         </div>

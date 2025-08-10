@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "../../assets/blog2.jpg";
+import Banner from "../../assets/img-3.jpg";
 
 const BannerDetails = ({ reverse, img = Banner }) => {
   return (
@@ -56,9 +56,9 @@ const BannerDetails = ({ reverse, img = Banner }) => {
               className={reverse ? "order-1" : ""}
             >
               <img
-                src={img}
-                alt="Vedant Study Point Reading Room"
-                className="mx-auto w-full rounded-lg shadow-lg hover:shadow-xl transition"
+              src={img}
+              alt="Vedant Study Point Reading Room"
+              className="rounded-lg shadow-lg hover:shadow-xl transition object-contain max-h-[450px] w-auto"
               />
             </div>
           </div>

@@ -2,7 +2,14 @@ import React from "react";
 import Img1 from "../../assets/blog1.jpg";
 import Img2 from "../../assets/blog2.jpg";
 import Img3 from "../../assets/blog3.jpg";
-import AOS from "aos";
+import Gallery1 from "../../assets/img-1.jpg";
+import Gallery2 from "../../assets/img-2.jpg";
+import Gallery3 from "../../assets/img-5.jpg";
+import Gallery4 from "../../assets/img-13.jpg";
+import Gallery5 from "../../assets/img-14.jpg";
+import Gallery6 from "../../assets/img-15.jpg";
+import Gallery7 from "../../assets/img-9.jpg";
+import Gallery8 from "../../assets/img-12.jpg";
 import "aos/dist/aos.css";
 
 const Blogs = () => {
@@ -121,6 +128,27 @@ const Blogs = () => {
 
         </div>
       </section>
+
+      {/* Gallery Section */}
+      <section className="container mb-10 py-8" id="gallery">
+        <h1 className="mb-8 border-l-8 py-2 pl-2 text-center text-3xl font-bold">
+          Photo Gallery
+        </h1>
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
+          {[Gallery1, Gallery2, Gallery3, Gallery4, Gallery5, Gallery6, Gallery7, Gallery8].map(
+            (image, index) => (
+              <div key={index} className="overflow-hidden rounded-lg shadow-lg">
+                <img
+                  src={image}
+                  alt={`Gallery ${index + 1}`}
+                  className="h-[200px] w-full object-cover transition-transform duration-500 hover:scale-110"
+                />
+              </div>
+            )
+          )}
+        </div>
+      </section>
+
     </main>
   );
 };

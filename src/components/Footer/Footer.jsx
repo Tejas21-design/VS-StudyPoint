@@ -5,6 +5,7 @@ import {
   FaLinkedin,
   FaLocationArrow,
   FaMobileAlt,
+  FaWhatsapp,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -29,7 +30,11 @@ const Footer = () => {
             </div>
             <div className="mt-3 flex items-center gap-3">
               <FaMobileAlt />
-              <p>+91 9876543210</p>
+              <p>+91 8767607248</p>
+            </div>
+            <div className="mt-3 flex items-center gap-3">
+              <FaMobileAlt />
+              <p>+91 8793822870</p>
             </div>
           </div>
 
@@ -78,22 +83,6 @@ const Footer = () => {
                     Privacy Policy
                   </a>
                 </li>
-                <li>
-                  <a
-                    href="/services"
-                    className="transition-all duration-300 hover:translate-x-[2px]"
-                  >
-                    Services
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/about"
-                    className="transition-all duration-300 hover:translate-x-[2px]"
-                  >
-                    About us
-                  </a>
-                </li>
               </ul>
             </div>
 
@@ -120,12 +109,12 @@ const Footer = () => {
                     <FaFacebook className="text-3xl" />
                   </a>
                   <a
-                    href="https://linkedin.com"
+                    href="https://wa.me/919876543210"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="duration-200 hover:scale-105"
                   >
-                    <FaLinkedin className="text-3xl" />
+                    <FaWhatsapp className="text-3xl" />
                   </a>
                 </div>
               </div>

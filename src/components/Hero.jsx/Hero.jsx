@@ -52,12 +52,12 @@ const Hero = () => {
               >
                 Scroll to services
               </button>
-              <button
+              {/* <button
                 onClick={() => setShowForm(true)}
                 className="rounded-md border-2 border-white px-4 py-2 text-sm text-white transition-colors duration-300"
               >
                 Opens call/WhatsApp link
-              </button>
+              </button> */}
             </div>
           </div>
           <div

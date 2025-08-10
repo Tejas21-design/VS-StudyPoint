@@ -11,7 +11,7 @@ import { useEffect } from "react";
 import Service from "./components/Service/Service";
 import BannerDetails from "./components/BannerDetails/BannerDetails";
 import Banner1 from "./assets/blog1.jpg";
-import Banner2 from "./assets/blog3.jpg";
+import Banner2 from "./assets/img-2.jpg";
 
 // Extra Pages
 const HomePage = () => (
