@@ -1,5 +1,6 @@
 import React from "react";
 import { FaUserCircle } from "react-icons/fa";
+import Logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 
 const ResponsiveMenu = ({ showMenu }) => {
@@ -11,7 +12,11 @@ const ResponsiveMenu = ({ showMenu }) => {
     >
       {/* User / Logo Section */}
       <div className="flex items-center gap-3 border-b border-violet-700 pb-4">
-        <FaUserCircle size={50} className="text-violet-300" />
+                    <img
+                    src={Logo}
+                    alt="Vedant Study Point Logo"
+                    className="h-10 w-10 object-contain"
+                    />
         <div>
           <h1 className="font-bold text-lg">Vedant Study Point</h1>
           <p className="text-sm text-violet-400">Your Calm Space to Study & Succeed</p>
