@@ -34,7 +34,7 @@ const Banner = () => {
               loop
               muted
               playsInline
-              className="rounded-lg shadow-lg object-cover max-h-[350px] max-w-[450px]"
+              className="rounded-lg shadow-lg object-cover max-h-[350px] w-auto"
             />
           </div>
         </div>
