@@ -134,7 +134,7 @@ const Navbar2 = () => {
                 </div>
               </li>
               <li className="cursor pointer">
-                <a href="/about">About us</a>
+                <a href="/#banner">About us</a>
               </li>
                <li className="cursor-pointer">
                 <a href="/#gallery">Gallery</a>
