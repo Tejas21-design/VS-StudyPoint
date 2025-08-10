@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import BannerImg from "../../assets/marketing-speaker.png";
-import VsPointVideo from "../../assets/vsPoint_test.mp4";
+import VsPointVideo from "../../assets/vspoint_test.mp4";
 import ContactForm from "../ContactForm";
 
 const Banner = () => {
