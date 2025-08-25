@@ -31,7 +31,7 @@ const BannerDetails = ({ reverse, img = Banner }) => {
                     Individual reading desks for privacy and comfort
                   </li>
                   <li className="font-medium">
-                    Fully cooled rooms with RO water & free Wi-Fi
+                    Fully cooled rooms with Drinking water & free Wi-Fi
                   </li>
                   <li className="font-medium">
                     Daily newspaper, parking facility & 24×7 CCTV security
