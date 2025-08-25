@@ -17,13 +17,13 @@ const Banner = () => {
               Vedant Study Point – Learn. Practice. Achieve.
             </h1>
             <p>
-              Join us at Vedant Study Point, where learning meets excellence.
-              We provide quality study material, expert guidance, and regular
-              practice sessions to help you excel in your academic journey.
+             At Vedant Study Point, we provide a quiet, comfortable, and focused environment designed exclusively for self-study. With a 
+             peaceful atmosphere, proper seating, and minimal distractions, our space helps you concentrate better, stay consistent, 
+             and make the most of your study hours.
             </p>
-            <button onClick={() => setShowForm(true)} className="rounded-md bg-white px-4 py-2 text-sm text-black transition-colors duration-300 hover:bg-white/90">
+            {/* <button onClick={() => setShowForm(true)} className="rounded-md bg-white px-4 py-2 text-sm text-black transition-colors duration-300 hover:bg-white/90">
               Book Your Seat
-            </button>
+            </button> */}
           </div>
 
           {/* Image Section */}

@@ -2,7 +2,6 @@ import React from "react";
 import {
   FaFacebook,
   FaInstagram,
-  FaLinkedin,
   FaLocationArrow,
   FaMobileAlt,
   FaWhatsapp,
@@ -16,12 +15,12 @@ const Footer = () => {
           <div className=" px-4 py-8 ">
             <h1 className="mb-3 text-justify text-xl font-bold sm:text-left sm:text-3xl">
               <a href="/#home">
-                VS <span></span>
-                <span className="inline-block font-bold text-primary">POINT</span>
+                Vedant Study <span></span>
+                <span className="inline-block font-bold text-primary">Point</span>
               </a>
             </h1>
             <p>
-              Your trusted partner for quality education and competitive exam preparation.
+              Your calm place to succeed in your career and life.
             </p>
             <br />
             <div className="flex items-center gap-3">
@@ -92,16 +91,16 @@ const Footer = () => {
               <div className="flex flex-col gap-3">
                 
                 <div className="mt-6 flex items-center gap-3">
-                  <a
+                  {/* <a
                     href="https://instagram.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="duration-200 hover:scale-105"
                   >
                     <FaInstagram className="text-3xl" />
-                  </a>
+                  </a> */}
                   <a
-                    href="https://facebook.com"
+                    href="https://www.facebook.com/share/15tVkKLEkv/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="duration-200 hover:scale-105"

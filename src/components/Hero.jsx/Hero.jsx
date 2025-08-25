@@ -52,6 +52,11 @@ const Hero = () => {
               >
                 Scroll to services
               </button>
+              <button 
+              onClick={() => setShowForm(true)} 
+              className="rounded-md bg-white px-4 py-2 text-sm text-black transition-colors duration-300 hover:bg-white/90">
+              Book Your Enquiry
+            </button>
               {/* <button
                 onClick={() => setShowForm(true)}
                 className="rounded-md border-2 border-white px-4 py-2 text-sm text-white transition-colors duration-300"

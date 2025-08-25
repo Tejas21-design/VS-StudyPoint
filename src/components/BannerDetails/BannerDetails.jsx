@@ -17,8 +17,8 @@ const BannerDetails = ({ reverse, img = Banner }) => {
                 reverse ? "md:order-last" : ""
               }`}
             >
-              <h1 className="text-2xl md:text-4xl font-bold">
-                Your Calm Space to Study & Succeed
+              <h1 className="text-2xl md:text-3xl font-bold">
+                Why should you choose Vedant Study Point?
               </h1>
               <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
                 Vedant Study Point offers a premium reading room and library in Nagpur. 
@@ -28,24 +28,33 @@ const BannerDetails = ({ reverse, img = Banner }) => {
               <div>
                 <ul className="flex list-inside list-disc flex-col gap-2 md:gap-3">
                   <li className="font-medium">
-                    Individual reading desks for privacy and comfort
+                    Conducive space for high focus and productivity
                   </li>
                   <li className="font-medium">
-                    Fully cooled rooms with Drinking water & free Wi-Fi
+                    Equipped with Personal Desks and Charging Points.
                   </li>
                   <li className="font-medium">
-                    Daily newspaper, parking facility & 24×7 CCTV security
+                    Silent and distraction-free environment
+                  </li>
+                   <li className="font-medium">
+                    Community of like-minded individuals for inspiration and motivation.
+                  </li>
+                  <li className="font-medium">
+                    Well-ventilated and Wi-Fi enabled space designed to optimize output
+                  </li>
+                  <li className="font-medium">
+                    Perfect for comfortable & productive hours.
                   </li>
                 </ul>
               </div>
-              <div className="pt-4">
+              {/* <div className="pt-4">
                 <a
                   href="tel:+918793822870"
                   className="px-5 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition"
                 >
                   Book Your Seat
                 </a>
-              </div>
+              </div> */}
             </div>
 
             {/* Image Section */}

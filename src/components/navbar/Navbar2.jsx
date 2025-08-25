@@ -45,7 +45,7 @@ const Navbar2 = () => {
             alt="Vedant Study Point Logo"
             className="h-10 w-10 object-contain"
             />
-              VEDANT STUDY POINT <span></span>
+             <p className="text-2xl"> VEDANT STUDY POINT</p> <span></span>
               {/* <span className="inline-block font-bold text-primary"> POINT</span> */}
             </a>
           </div>
