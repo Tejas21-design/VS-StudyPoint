@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Banner from "../../assets/undraw_real_time_sync_re_nky7.svg";
+import LibraryImage from "../../assets/library-image.jpg";
 import ContactForm from "../ContactForm";
 
 const Hero = () => {

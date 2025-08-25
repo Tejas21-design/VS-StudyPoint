@@ -25,7 +25,14 @@ const Footer = () => {
             <br />
             <div className="flex items-center gap-3">
               <FaLocationArrow />
-              <p>Nagpur, Maharashtra</p>
+              <p>
+                <a
+                    href="https://maps.app.goo.gl/tkMhLqTeDXg3UCov5?g_st=aw"
+                    className="transition-all duration-300 hover:translate-x-[2px]"
+                  >
+                  27, Rameshwari Rd, Kashi Nagar, Bhagwan Nagar, Nagpur, Maharashtra 440027
+                </a>
+              </p>
             </div>
             <div className="mt-3 flex items-center gap-3">
               <FaMobileAlt />
@@ -76,7 +83,7 @@ const Footer = () => {
               <ul className="flex flex-col gap-3">
                 <li>
                   <a
-                    href="/privacy-policy"
+                    // href="/privacy-policy"
                     className="transition-all duration-300 hover:translate-x-[2px]"
                   >
                     Privacy Policy
